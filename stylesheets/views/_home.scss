@@ -1,0 +1,152 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; }
+
+@font-face {
+    font-family: JosefinSans-Bold;
+    src:url(../fonts/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: MuseoSans-300;
+    src:url(../fonts/museo/MuseoSans-300.otf);
+  }
+@font-face {
+  font-family: MuseoSans-100;
+  src:url(../fonts/museo/MuseoSans-100.otf);
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.subtitulos{
+  color: #8687DD;
+  text-align: center;
+  font-family: MuseoSans-300;
+  padding: 20px;
+  }
+
+/* aqui empieza el home*/
+
+.home{
+  background-image: url(../img/banner-principal.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* aqui empieza un breve pararfo sobre la empresa*/
+
+.sobre-nosotros{
+  h3{
+
+  }
+  p {
+    font-family: "MuseoSans-300";
+    font-size: 25px;
+    text-align: center;
+    color: grey;
+    padding: 0 20px 30px;
+  }
+}
+/* aqui empieza las promociones de surf*/
+
+.promociones{
+  .row{
+     padding: 0 120px 30px;
+  }
+
+}
+.contenido{
+  background-color: white;
+}
+.interior {
+  background-color: #333333;
+}
+.blanco {
+  text-align: center;
+  color: white;
+  padding: 3%;
+  font-size: 34px;
+}
+.titulo > p {
+  text-align: center;
+  color: #6DAECF;
+  padding: 9%;
+  border: 1px solid #dddddd;
+}
+.incluye > p {
+  color: #6DAECF;
+  border: 1px solid #dddddd;
+  padding: 9%;
+}
+.centro {
+  text-align: center;
+  padding: 26px;
+  font-size: 31px;
+    a {
+    color: white;
+    padding: 18px;
+    font-size: 0.4em;
+    background-color: #85B5EC;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+}
+/* aqui empieza la seccion contaname*/
+
+.columna {
+  padding-bottom: 3%;
+}
+.estilo-nombre {
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  border: 1px solid #2F0AEA;
+}
+.grupo-formulario textarea {
+  width: 100%;
+  border: 1px solid #2F0AEA;
+  padding: 6px 12px;
+}
+.boton-enviar{
+  text-align: center;
+  padding: 10px;
+}
+.enviar button {
+  width: 35%;
+  padding: 2%;
+  background-color: #1C87E0;
+  border-color: #6ba6d7;
+  border-radius: 15px;
+  color: white;
+}
+
+/* aqui empieza el footer*/
+
+footer{
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+  color: white;
+    p{
+      padding: 5px;
+    }
+}
+/* aqui empieza los efectos paralax */
+.paralax{
+  background-image: url(../img/banner-black.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 50%;
+}
+.paralax-2{
+  background-image: url(../img/banner-1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 50%;
+}
