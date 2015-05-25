@@ -29,11 +29,47 @@
 /* aqui empieza el home*/
 
 .home{
-  background-image: url(../img/banner-principal.jpg);
+  background-image: url(../img/portada-1.jpg);
   height: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+
+.img-portada{
+  background: rgba(38, 40, 47, 0.2);
+  padding: 40px 50px;
+  height: 100%;
+  text-align: center;
+    img{
+      height: 45%;
+    }
+    h3{
+      color: white;
+      text-align: -webkit-left;
+      padding-top: 25%;
+    }
+}
+
+/*navegacion*/
+/*menu nav*/
+
+.navbar-default {
+  margin-bottom: 0px;
+  background-color: #3EC4CE;
+  opacity: 1;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+}
+
+.navegacion{
+  background-color: #99D541;
+  border-color: transparent;
+  position: fixed;
+  width: 100%;
 }
 /* aqui empieza un breve pararfo sobre la empresa*/
 
