@@ -13,6 +13,11 @@
 			<div class="img-portada">
 				<img src="img/logo.png" alt="">
 				<h3>"Si emociona pensarlo, imáginate hacerlo"</h3>
+				<div class="text-center">
+					<a href="#sobre-nosotros">
+						<img src="img/arrow397.png" alt="" style="height: 50px;margin-top: -60px;">
+					</a>	
+				</div>
 			</div>
 		</section>
 		<section class="navegacion">
@@ -44,7 +49,7 @@
 			  	</div><!-- /.container-fluid -->
 			</nav>
 		</section>
-		<section class="sobre-nosotros">
+		<section id="sobre-nosotros" class="sobre-nosotros">
 			<div class="subtitulos">
 				<h1>Sobre Nosotros</h1>
 			</div>
@@ -152,25 +157,25 @@
 					<div class="col-sm-4">
 						<div class="formulario">
 							<form action="">
-								  <div class="grupo-formulario columna">
-									<input type="text" class="estilo-nombre" placeholder="Nombre" required=""> 
-								  </div>
-								  <div class="grupo-formulario columna">
-									<input type="text" class="estilo-nombre" placeholder="Apellido" required=""> 
-								  </div>
-								  <div class="grupo-formulario columna">
-									<input type="text" class="estilo-nombre" placeholder="E-mail" required=""> 
-								  </div>
-								  <div class="grupo-formulario columna">
-										<textarea placeholder="Mensaje" required="" rows="10"></textarea>
-								  </div>
-								  <div class="enviar"> 
-										<div class="boton-enviar"> <button type="submit">ENVIAR</button>
-										</div>
+							  <div class="grupo-formulario columna">
+								<input type="text" class="estilo-nombre" placeholder="Nombre" required=""> 
+							  </div>
+							  <div class="grupo-formulario columna">
+								<input type="text" class="estilo-nombre" placeholder="Apellido" required=""> 
+							  </div>
+							  <div class="grupo-formulario columna">
+								<input type="text" class="estilo-nombre" placeholder="E-mail" required=""> 
+							  </div>
+							  <div class="grupo-formulario columna">
+									<textarea placeholder="Mensaje" required="" rows="10"></textarea>
+							  </div>
+							  <div class="enviar"> 
+									<div class="boton-enviar"> <button type="submit">ENVIAR</button>
 									</div>
-								</form>
+								</div>
+							</form>
 						</div>
-					</div>
+
 					<div class="col-sm-4"></div>
 				</div>
 			</div>
@@ -183,4 +188,20 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/script.js"></script>
+	<script>
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
+	</script>
 </html>
