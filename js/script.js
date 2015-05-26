@@ -1,14 +1,13 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
-        var prueba = $(this).scrollTop();
-        $("#carmen").text(prueba);
-        if (prueba > 658) {
-            $(".navbar").addClass("navegacion");
-        }
-            else if (prueba < 658) {
-            $(".navbar").removeClass("navegacion");
+$(document).ready(function() {
+    $(document).scroll(function () {
+        var scroll = $(this).scrollTop();
+        var topDist = $(".navegacion").position();
+        if (scroll > topDist.top) {
+            console.log("prueba");
+            $('.navbar').addClass("navbar-fixed-top");
+        } else {
+            console.log("no");
+            $('.navbar').removeClass("navbar-fixed-top");
         }
     });
 });
-
-

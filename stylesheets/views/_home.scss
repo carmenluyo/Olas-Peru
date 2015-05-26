@@ -53,23 +53,28 @@
 }
 
 /*navegacion*/
-/*menu nav*/
 
-.navbar-default {
+nav.navbar.navbar-default {
   margin-bottom: 0px;
-  background-color: #3EC4CE;
-  opacity: 1;
+  background-color: #67A4DF;
+  border-color: #67A4DF;
+  border-radius: 0;
+  a {
+  color: white;
+  }
+  .navbar-toggle {
+    border-color: transparent;
+  }
 }
 
-.navbar-default .navbar-nav > li > a {
-  color: #FFF;
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: white;
 }
-
-.navegacion{
-  background-color: #99D541;
-  border-color: transparent;
-  position: fixed;
-  width: 100%;
+.navlogo{
+  img{
+    width: 120px;
+    margin-top: -6px;
+  }
 }
 /* aqui empieza un breve pararfo sobre la empresa*/
 
