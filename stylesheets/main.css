@@ -5286,15 +5286,7 @@ footer {
 
 /* aqui empieza los efectos paralax */
 .paralax {
-  background-image: url(../img/banner-black.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 50%; }
-
-.paralax-2 {
-  background-image: url(../img/banner-1.jpg);
+  background-image: url(../img/banner.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
