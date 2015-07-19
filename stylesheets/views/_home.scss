@@ -15,6 +15,9 @@
   font-family: MuseoSans-100;
   src:url(../fonts/museo/MuseoSans-100.otf);
 }
+a:hover, a:focus {
+  text-decoration: none;
+}
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -23,8 +26,8 @@
   color: #8687DD;
   text-align: center;
   font-family: MuseoSans-300;
-  padding: 20px;
-  }
+  padding: 35px;
+}
 .text-center{
   text-align: center;
 }
@@ -92,52 +95,95 @@ nav.navbar.navbar-default {
       padding: 0 20px 30px;
     }
 }
+/* section staff*/
+.instructores{
+  background-color: rgba(0, 0, 0, 0.08);
+    .container{
+      padding-left: 6%;
+      padding-right: 6%;
+    }
+    .col-md-4{
+      text-align: center;
+    }
+    .img-stafff{
+      padding-bottom: 15%;
+      img{
+          border-radius: 50%;
+          width: 80%;
+      }
+    }
+    .staff-text{
+      width: 75%;
+      font-size: 18px;
+      background-color: rgba(190, 187, 187, 0.52);
+      color: rgb(68, 62, 62);
+      text-align: center;
+      padding: 1px;
+      margin: 0 auto 25%;
+    }
+}
+
+
 /* aqui empieza las promociones de surf*/
 
 .promociones{
   .row{
      padding: 0 120px 30px;
+     margin-bottom: 5%;
   }
-
-}
-.contenido{
-  background-color: white;
-}
-.interior {
+  h4{
+    text-align: center;
+  }
+  .contenido{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    background-color: rgba(87, 100, 100, 0.08);
+      img{
+        width: 100%;
+        padding: 6%;
+        background-color: white;
+      }
+  }
+  .interior {
   background-color: #333333;
-}
-.blanco {
-  text-align: center;
-  color: white;
-  padding: 3%;
-  font-size: 34px;
-}
-.titulo > p {
-  text-align: center;
-  color: #6DAECF;
-  padding: 9%;
-  border: 1px solid #dddddd;
-}
-.incluye > p {
-  color: #6DAECF;
-  border: 1px solid #dddddd;
-  padding: 9%;
-}
-.centro {
-  text-align: center;
-  padding: 26px;
-  font-size: 31px;
-    a {
+  }
+  .blanco {
+    text-align: center;
     color: white;
-    padding: 18px;
-    font-size: 0.4em;
+    padding: 3%;
+    font-size: 34px;
+  }
+  .titulo > h3 {
+    text-align: center;
+    color: #353C3F;
+    padding: 2%;
+    background-color: #dddddd;
+    margin: 6%;
+  }
+  .centro {
+    text-align: center;
+    padding: 3%;
     background-color: #85B5EC;
-    font-weight: 700;
-    letter-spacing: 0.1em;
+    margin: 5%;
+      a { 
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        text-align: center;
+      }
+  }
+  h6{
+    font-size: 20px;
   }
 }
-/* aqui empieza la seccion contaname*/
 
+
+/* aqui empieza la seccion contaname*/
+.contacto{
+  background-color: rgba(36, 46, 48, 0.04);
+}
 .columna {
   padding-bottom: 3%;
 }
